@@ -2,8 +2,8 @@
   "categorias": [
     {
       "id": "cat_01",
-      "titulo": "Mejor Bailarín de la Noche 💃🏻",
-      "descripcion": "El familiar que no dejó sola la pista de baile en todo el año.",
+      "titulo": "😂 El Personaje del Año",
+      "descripcion": "Para quien siempre deja una anécdota, una ocurrencia o una historia memorable.",
       "nominados": [
         { "id": "nom_101", "nombre": "Tío Carlos Mendoza", "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&fit=crop" },
         { "id": "nom_102", "nombre": "Tía Sofía", "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&fit=crop" },
@@ -13,8 +13,8 @@
     },
     {
       "id": "cat_02",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "💃 El Alma de la Pista",
+      "descripcion": "Para quien apenas escucha música y desaparece de la silla.",
       "nominados": [
         { "id": "nom_201", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_202", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -24,8 +24,8 @@
     },
     {
       "id": "cat_03",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🎤 La Voz de Oro",
+      "descripcion": "Para el cantante oficial —por talento o por insistencia— de la familia.",
       "nominados": [
         { "id": "nom_301", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_302", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -35,8 +35,8 @@
     },
     {
       "id": "cat_04",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🤣 El Cuenta-Historias de Oro",
+      "descripcion": "Para quien convierte cualquier reunión en una colección de cuentos, chistes y recuerdos.",
       "nominados": [
         { "id": "nom_401", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_402", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -46,8 +46,8 @@
     },
     {
       "id": "cat_05",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🥳 El Último en Irse",
+      "descripcion": "Para quien nunca está listo para terminar la fiesta.",
       "nominados": [
         { "id": "nom_501", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_502", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -57,8 +57,8 @@
     },
     {
       "id": "cat_06",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "😤 Genio y Figura",
+      "descripcion": "Para ese carácter inolvidable de la familia: refunfuña, protesta, manda… pero así lo queremos.",
       "nominados": [
         { "id": "nom_601", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_602", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -68,8 +68,8 @@
     },
     {
       "id": "cat_07",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🍲 La Mano Bendita",
+      "descripcion": "Para quien tiene ese plato que la familia espera y recuerda.",
       "nominados": [
         { "id": "nom_701", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_702", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -79,8 +79,8 @@
     },
     {
       "id": "cat_08",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🚛🚜 El Todoterreno Familiar",
+      "descripcion": "Para el trabajador incansable que se le mide a todo y siempre encuentra cómo resolver.",
       "nominados": [
         { "id": "nom_801", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_802", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -90,8 +90,8 @@
     },
     {
       "id": "cat_09",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "💪 Echao Pa’lante",
+      "descripcion": "Para quien ha enfrentado dificultades y sigue construyendo, trabajando y avanzando.",
       "nominados": [
         { "id": "nom_901", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_902", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -101,8 +101,8 @@
     },
     {
       "id": "cat_10",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🌟 Volver a Levantarse",
+      "descripcion": "Para quien ha pasado por una enfermedad, accidente, pérdida o situación difícil y ha demostrado una enorme capacidad de recuperación.",
       "nominados": [
         { "id": "nom_1001", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1002", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -112,8 +112,8 @@
     },
     {
       "id": "cat_11",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "❤️ Inspiración de Vida",
+      "descripcion": "Para quien, incluso atravesando actualmente una situación complicada, contagia fortaleza, esperanza y ganas de seguir.",
       "nominados": [
         { "id": "nom_1101", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1102", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -123,8 +123,8 @@
     },
     {
       "id": "cat_12",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🌹 Huella Eterna — Categoría especial",
+      "descripcion": "Y el Premio Basilio Huella Eterna es para… Basilio, nuestra abuela, Benito y Julio",
       "nominados": [
         { "id": "nom_1201", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1202", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -134,8 +134,8 @@
     },
     {
       "id": "cat_13",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🧭 El GPS de la Familia",
+      "descripcion": "Para quien sabe dónde vive todo el mundo, cómo llegar, quién es hijo de quién y cuál es “el camino más corto”.",
       "nominados": [
         { "id": "nom_1301", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1302", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -145,8 +145,8 @@
     },
     {
       "id": "cat_14",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "📚 La Memoria Histórica",
+      "descripcion": "Para quien conserva historias, fechas, parentescos y recuerdos que mantienen viva la historia familiar.",
       "nominados": [
         { "id": "nom_1401", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1402", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -156,8 +156,8 @@
     },
     {
       "id": "cat_15",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "❤️ El Corazón de la Familia",
+      "descripcion": "Para quien une, llama, visita, ayuda, acompaña y siempre está pendiente de los demás.",
       "nominados": [
         { "id": "nom_1501", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1502", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -167,8 +167,8 @@
     },
     {
       "id": "cat_16",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "titulo": "🌳 Premio Legado Basilio — EL GRAN PREMIO DE LA NOCHE",
+      "descripcion": "Quien representa especialmente los valores que quieren reconocer en el legado de Basilio: familia, trabajo, fortaleza, solidaridad, alegría y amor por los suyos.",
       "nominados": [
         { "id": "nom_1601", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1602", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
