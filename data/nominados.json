@@ -21,6 +21,171 @@
         { "id": "nom_203", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
         { "id": "nom_204", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
+    },
+    {
+      "id": "cat_03",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_301", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_302", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_303", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_304", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_04",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_401", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_402", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_403", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_404", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_05",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_501", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_502", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_503", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_504", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_06",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_601", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_602", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_603", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_604", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_07",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_701", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_702", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_703", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_704", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_08",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_801", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_802", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_803", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_804", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_09",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_901", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_902", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_903", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_904", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_10",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1001", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1002", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1003", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1004", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_11",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1101", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1102", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1103", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1104", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_12",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1201", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1202", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1203", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1204", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_13",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1301", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1302", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1303", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1304", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_14",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1401", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1402", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1403", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1404", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_15",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1501", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1502", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1503", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1504", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_16",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1601", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1602", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1603", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1604", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_17",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_1701", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1702", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1703", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1704", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
     }
   ]
 }
