@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Premios Mendoza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-black text-white p-4 max-w-4xl mx-auto">
+
+  <header class="border-b border-yellow-500/30 pb-4 mb-6 flex flex-wrap justify-between items-center gap-4">
+    <div>
+      <h1 class="font-cinzel text-2xl font-bold gold-gradient-text">PANEL DE CONTROL ADMIN</h1>
+      <p class="text-xs text-gray-400">Consola de Control en Vivo para Votaciones</p>
+    </div>
+    <!-- BOTÓN DE PRUEBAS / RESET GENERAL -->
+    <button id="btn-factory-reset" class="bg-red-900/80 hover:bg-red-700 border border-red-500 text-white font-bold text-xs px-4 py-2 rounded-xl transition-all">
+      ⚠️ RESET GENERAL DE PRUEBAS
+    </button>
+  </header>
+
+  <main class="space-y-6">
+    <!-- SECCIÓN DE CONTROL POR CATEGORÍA -->
+    <div id="admin-categories-list" class="space-y-4"></div>
+  </main>
+
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
