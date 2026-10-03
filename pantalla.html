@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Display - Premios Mendoza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-black text-white h-screen overflow-hidden flex flex-col justify-between p-10">
+
+  <header class="flex justify-between items-center border-b border-yellow-500/30 pb-6">
+    <div class="flex items-center gap-4">
+      <span class="text-5xl">🏆</span>
+      <div>
+        <h1 class="font-cinzel text-4xl font-black gold-gradient-text">LOS PREMIOS MENDOZA</h1>
+        <p class="text-sm text-gray-400 tracking-widest uppercase">Noche de Gala</p>
+      </div>
+    </div>
+    <!-- Código QR sugerido hacia el link público de la App -->
+    <div class="text-right">
+      <p class="text-xs text-gray-400 mb-1">¡Escanear para Votar!</p>
+      <div class="bg-white p-2 rounded-lg inline-block">
+        <img id="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://tu-app.vercel.app" class="w-20 h-20">
+      </div>
+    </div>
+  </header>
+
+  <main id="tv-main-content" class="flex-1 flex flex-col justify-center items-center text-center">
+    <!-- Contenido dinámico mediante pantalla.js -->
+  </main>
+
+  <footer class="text-center text-xs text-gray-500">
+    Transmisión en Vivo • Premios Mendoza
+  </footer>
+
+  <script type="module" src="js/pantalla.js"></script>
+</body>
+</html>
