@@ -1,0 +1,26 @@
+{
+  "categorias": [
+    {
+      "id": "cat_01",
+      "titulo": "Mejor Bailarín de la Noche 💃🏻",
+      "descripcion": "El familiar que no dejó sola la pista de baile en todo el año.",
+      "nominados": [
+        { "id": "nom_101", "nombre": "Tío Carlos Mendoza", "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&fit=crop" },
+        { "id": "nom_102", "nombre": "Tía Sofía", "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&fit=crop" },
+        { "id": "nom_103", "nombre": "Prima Camila", "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&fit=crop" },
+        { "id": "nom_104", "nombre": "Abuelo Gustavo", "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_02",
+      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
+      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
+      "nominados": [
+        { "id": "nom_201", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_202", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_203", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_204", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    }
+  ]
+}
