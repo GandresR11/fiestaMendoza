@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+  --gold-primary: #D4AF37;
+  --gold-light: #FFD700;
+  --gold-dark: #AA7C11;
+  --bg-dark: #0B0B0C;
+  --card-bg: #141416;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-dark);
+  color: #FFFFFF;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Efecto de texto dorado Óscar */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF5C0 0%, #D4AF37 50%, #AA7C11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Borde dorado de gala */
+.gold-border {
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8), 0 0 10px rgba(212, 175, 55, 0.15);
+}
+
+.gold-border-active {
+  border: 2px solid var(--gold-light);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+}
+
+.gold-btn {
+  background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%);
+  color: #000000;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.gold-btn:active {
+  transform: scale(0.97);
+}
+
+/* Animaciones */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); }
+  50% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.7); }
+}
+
+.pulse-glow {
+  animation: pulseGlow 2s infinite;
+}
