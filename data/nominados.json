@@ -6,10 +6,10 @@
       "titulo": "😂 El Personaje del Año",
       "descripcion": "Para quien siempre deja una anécdota, una ocurrencia o una historia memorable.",
       "nominados": [
-        { "id": "nom_101", "nombre": "Tío Carlos Mendoza", "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&fit=crop" },
-        { "id": "nom_102", "nombre": "Tía Sofía", "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&fit=crop" },
-        { "id": "nom_103", "nombre": "Prima Camila", "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&fit=crop" },
-        { "id": "nom_104", "nombre": "Abuelo Gustavo", "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&fit=crop" }
+        { "id": "nom_101", "nombre": "Mateo", "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&fit=crop" },
+        { "id": "nom_102", "nombre": "Tio Miguel", "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&fit=crop" },
+        { "id": "nom_103", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&fit=crop" },
+        { "id": "nom_104", "nombre": "Luis Carlos", "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&fit=crop" }
       ]
     },
     {
@@ -17,10 +17,10 @@
       "titulo": "💃 El Alma de la Pista",
       "descripcion": "Para quien apenas escucha música y desaparece de la silla.",
       "nominados": [
-        { "id": "nom_201", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_202", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_203", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_204", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_201", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_202", "nombre": "Mariangel", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_203", "nombre": "Jairo Celis", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_204", "nombre": "Milenita", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -28,10 +28,10 @@
       "titulo": "🎤 La Voz de Oro",
       "descripcion": "Para el cantante oficial —por talento o por insistencia— de la familia.",
       "nominados": [
-        { "id": "nom_301", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_302", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_303", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_304", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_301", "nombre": "Glorita", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_302", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_303", "nombre": "Carlos Mendoza Acevedo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_304", "nombre": "TiaAmparo", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -39,10 +39,10 @@
       "titulo": "🤣 El Cuenta-Historias de Oro",
       "descripcion": "Para quien convierte cualquier reunión en una colección de cuentos, chistes y recuerdos.",
       "nominados": [
-        { "id": "nom_401", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_402", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_403", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_404", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_401", "nombre": "Tio Gustavo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_402", "nombre": "Cesar (Alba)", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_403", "nombre": "Nelson", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_404", "nombre": "Julio Cesar", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -50,10 +50,10 @@
       "titulo": "🥳 El Último en Irse",
       "descripcion": "Para quien nunca está listo para terminar la fiesta.",
       "nominados": [
-        { "id": "nom_501", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_502", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_503", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_504", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_501", "nombre": "Javier", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_502", "nombre": "Nelson", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_503", "nombre": "Chepe", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_504", "nombre": "Mateo", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -61,10 +61,10 @@
       "titulo": "😤 Genio y Figura",
       "descripcion": "Para ese carácter inolvidable de la familia: refunfuña, protesta, manda… pero así lo queremos.",
       "nominados": [
-        { "id": "nom_601", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_602", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_603", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_604", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_601", "nombre": "Tia Miryam", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_602", "nombre": "Tio Carlos", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_603", "nombre": "Tia Miguel", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_604", "nombre": "Tia Chabela", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -72,9 +72,9 @@
       "titulo": "🍲 La Mano Bendita",
       "descripcion": "Para quien tiene ese plato que la familia espera y recuerda.",
       "nominados": [
-        { "id": "nom_701", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_702", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_703", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_701", "nombre": "Tia Miryan", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_702", "nombre": "Tia Briceida", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_703", "nombre": "Tia emirida", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
         { "id": "nom_704", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
@@ -177,16 +177,6 @@
         { "id": "nom_1604", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
-    {
-      "id": "cat_17",
-      "titulo": "El Rey del Sazón / Chef Familiar 🍳",
-      "descripcion": "El encargado de rescatar los asados y cenas navideñas.",
-      "nominados": [
-        { "id": "nom_1701", "nombre": "Papá Guillermo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1702", "nombre": "Mamá Beatriz", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1703", "nombre": "Primo Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1704", "nombre": "Tía Andrea", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
-      ]
-    }
+
   ]
 }
