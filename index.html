@@ -22,6 +22,14 @@
   </style>
 
   <link rel="stylesheet" href="css/styles.css">
+  <script>
+  // Detectar si están abriendo desde el navegador interno de WhatsApp / Instagram / FB en Android
+  const ua = navigator.userAgent || navigator.vendor || window.opera;
+  if (/FBAN|FBAV|Instagram|WhatsApp/i.test(ua) && /Android/i.test(ua)) {
+    // Forzar la apertura en Chrome externo en Android
+    window.location.href = "intent://" + window.location.host + window.location.pathname + "#Intent;scheme=https;package=com.android.chrome;end";
+  }
+</script>
 </head>
 <body class="min-h-screen flex flex-col justify-between">
 
