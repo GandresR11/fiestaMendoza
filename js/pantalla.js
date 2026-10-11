@@ -70,7 +70,7 @@ function renderTV(state) {
 
     main.innerHTML = `
       <div class="flex flex-col items-center">
-        <span class="text-yellow-400 font-bold tracking-widest text-xl uppercase mb-2">Y EL GANADOR DEL ÓSCAR ES...</span>
+        <span class="text-yellow-400 font-bold tracking-widest text-xl uppercase mb-2">Y EL GANADOR ES...</span>
         <h2 class="font-cinzel text-4xl font-bold text-gray-300 mb-8">${category.titulo}</h2>
         
         <div class="bg-[#141416] p-8 rounded-3xl gold-border-active flex flex-col items-center max-w-lg animate-pulse">
