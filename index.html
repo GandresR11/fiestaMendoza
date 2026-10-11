@@ -6,38 +6,90 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Premios Mendoza - Votación en Vivo</title>
 
-  <!-- Tailwind CSS CDN con Play Engine -->
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
-
-  <!-- Fallback CSS NATIVO (Por si el navegador interno de WhatsApp/Instagram bloquea Tailwind CDN) -->
-  <style>
-    /* Estilos base de respaldo garantizados en cualquier navegador */
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background-color: #0B0B0C !important; color: #FFFFFF !important; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important; }
-    .bg-dark { background-color: #0B0B0C; }
-    .card-bg { background-color: #141416; }
-    .gold-btn { background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%) !important; color: #000000 !important; font-weight: 700 !important; }
-    .gold-border { border: 1px solid rgba(212, 175, 55, 0.4) !important; }
-    .hidden { display: none !important; }
-  </style>
-
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- Tailwind CSS desde CDN oficial sin dependencias -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
   <script>
-  // Detectar si están abriendo desde el navegador interno de WhatsApp / Instagram / FB en Android
-  const ua = navigator.userAgent || navigator.vendor || window.opera;
-  if (/FBAN|FBAV|Instagram|WhatsApp/i.test(ua) && /Android/i.test(ua)) {
-    // Forzar la apertura en Chrome externo en Android
-    window.location.href = "intent://" + window.location.host + window.location.pathname + "#Intent;scheme=https;package=com.android.chrome;end";
-  }
-</script>
+    // Script de escape para navegadores embebidos (Instagram / WhatsApp en Android)
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    if (/FBAN|FBAV|Instagram|WhatsApp/i.test(ua) && /Android/i.test(ua)) {
+      window.location.href = "intent://" + window.location.host + window.location.pathname + "#Intent;scheme=https;package=com.android.chrome;end";
+    }
+  </script>
+
+  <!-- ESTILOS COMPLETO INCORPORADOS (Garantiza que cargue en el 100% de celulares) -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700&display=swap');
+
+    :root {
+      --gold-primary: #D4AF37;
+      --gold-light: #FFD700;
+      --gold-dark: #AA7C11;
+      --bg-dark: #0B0B0C;
+      --card-bg: #141416;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+      background-color: #0B0B0C !important;
+      color: #FFFFFF !important;
+      margin: 0;
+      padding: 0;
+    }
+
+    .font-cinzel {
+      font-family: 'Cinzel', serif !important;
+    }
+
+    /* Degradado Dorado Óscar */
+    .gold-gradient-text {
+      color: #FFD700;
+      background: linear-gradient(135deg, #FFF5C0 0%, #D4AF37 50%, #AA7C11 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Bordes de Gala */
+    .gold-border {
+      border: 1px solid #D4AF37 !important;
+      border-color: rgba(212, 175, 55, 0.4) !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    }
+
+    .gold-border-active {
+      border: 2px solid #FFD700 !important;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.4) !important;
+    }
+
+    .gold-btn {
+      background: #D4AF37 !important;
+      background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%) !important;
+      color: #000000 !important;
+      font-weight: 700 !important;
+      transition: all 0.2s ease;
+    }
+
+    .gold-btn:active {
+      transform: scale(0.96);
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
 </head>
-<body class="min-h-screen flex flex-col justify-between">
+<body class="min-h-screen flex flex-col justify-between bg-[#0B0B0C]">
 
   <!-- CABECERA PERSISTENTE -->
-  <header id="app-header" class="hidden sticky top-0 z-50 bg-[#121214] border-b border-[#D4AF37]/30 px-4 py-3 flex justify-between items-center shadow-lg">
+  <header id="app-header" class="hidden sticky top-0 z-50 bg-[#121214] border-b border-[#D4AF37]/40 px-4 py-3 flex justify-between items-center shadow-lg">
     <div>
-      <p class="text-xs text-gray-400">Votando como:</p>
-      <p id="current-user-display" class="font-bold text-yellow-400 text-sm truncate max-w-[160px]"> Invitar </p>
+      <p class="text-[10px] text-gray-400 uppercase tracking-wider">Votando como:</p>
+      <p id="current-user-display" class="font-bold text-yellow-400 text-sm truncate max-w-[150px]">Invitado</p>
     </div>
     <button id="btn-switch-user" class="text-xs bg-[#222] border border-[#D4AF37] text-yellow-400 font-semibold px-3 py-1.5 rounded-full flex items-center gap-1 active:scale-95">
       <span>+ Cambiar / Agregar</span>
@@ -45,27 +97,27 @@
   </header>
 
   <!-- PANTALLA 1: LOGUEO / SELECCIÓN DE USUARIO -->
-  <main id="view-login" class="flex-1 flex flex-col justify-center items-center px-6 py-10 max-w-md mx-auto w-full">
-    <div class="text-center mb-8">
+  <main id="view-login" class="flex-1 flex flex-col justify-center items-center px-6 py-8 max-w-md mx-auto w-full">
+    <div class="text-center mb-6">
       <div class="inline-block p-4 rounded-full border border-[#D4AF37]/40 mb-3 bg-[#141416]">
         <span class="text-4xl">🏆</span>
       </div>
-      <h1 class="font-cinzel text-3xl font-extrabold gold-gradient-text tracking-wide">LOS PREMIOS MENDOZA 2026</h1>
+      <h1 class="font-cinzel text-3xl font-extrabold gold-gradient-text tracking-wide">LOS PREMIOS MENDOZA del 2026</h1>
       <p class="text-xs text-gray-400 mt-1 uppercase tracking-widest">Noche de Gala Familiar</p>
     </div>
 
-    <!-- Usuarios Guardados en este Celular -->
-    <div id="saved-users-container" class="w-full mb-6 hidden">
+    <!-- Lista de Usuarios Guardados en este Celular -->
+    <div id="saved-users-container" class="w-full mb-5 hidden">
       <p class="text-xs text-gray-400 mb-2 font-semibold">Selecciona quién votará ahora:</p>
       <div id="saved-users-list" class="space-y-2 max-h-40 overflow-y-auto"></div>
     </div>
 
     <!-- Formulario para Nuevo Nombre -->
     <div class="w-full bg-[#141416] p-6 rounded-2xl gold-border">
-      <label class="block text-sm font-medium text-gray-300 mb-2">Ingresa tu Nombre y Apellido:</label>
+      <label class="block text-xs font-semibold text-gray-300 mb-2 uppercase tracking-wider">Ingresa tu Nombre y Apellido:</label>
       <input type="text" id="input-fullname" placeholder="Ej: Tío Carlos Mendoza" 
-             class="w-full bg-[#0B0B0C] border border-gray-700 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-[#D4AF37] mb-4">
-      <button id="btn-start-voting" class="w-full gold-btn py-3.5 rounded-xl uppercase tracking-wider text-sm shadow-lg">
+             class="w-full bg-[#0B0B0C] border border-gray-700 rounded-xl px-4 py-3 text-white text-sm placeholder-gray-500 focus:outline-none focus:border-[#D4AF37] mb-4">
+      <button id="btn-start-voting" class="w-full gold-btn py-3.5 rounded-xl uppercase tracking-wider text-xs font-bold shadow-lg">
         Ingresar a Votar
       </button>
     </div>
@@ -75,7 +127,7 @@
   <main id="view-voting" class="hidden flex-1 px-4 py-6 max-w-md mx-auto w-full">
     <!-- Header de la Categoría -->
     <div id="category-header" class="text-center mb-6">
-      <span class="text-xs font-bold text-yellow-500 uppercase tracking-widest border border-yellow-500/30 px-3 py-1 rounded-full">Categoría en Curso</span>
+      <span class="text-[10px] font-bold text-yellow-500 uppercase tracking-widest border border-yellow-500/40 px-3 py-1 rounded-full bg-yellow-500/10">Categoría en Curso</span>
       <h2 id="cat-title" class="font-cinzel text-2xl font-bold text-white mt-3">Cargando...</h2>
       <p id="cat-desc" class="text-xs text-gray-400 mt-1">...</p>
     </div>
@@ -85,19 +137,19 @@
 
     <!-- Feedback de Voto Exitoso -->
     <div id="voted-feedback" class="hidden bg-green-900/40 border border-green-500/50 p-4 rounded-xl text-center my-4">
-      <p class="text-green-400 text-sm font-bold">¡Tu voto ha sido registrado correctamente! 🎉</p>
-      <p class="text-xs text-gray-300 mt-1">Espera en pantalla mientras el administrador avanza a la siguiente categoría.</p>
+      <p class="text-green-400 text-sm font-bold">¡Tu voto ha sido registrado! 🎉</p>
+      <p class="text-[11px] text-gray-300 mt-1">Espera en pantalla a que el moderador abra la siguiente categoría.</p>
     </div>
   </main>
 
-  <!-- PANTALLA 3: ESPERA (CUANDO LA CATEGORÍA ESTÁ CERRADA) -->
+  <!-- PANTALLA 3: ESPERA -->
   <main id="view-waiting" class="hidden flex-1 flex flex-col justify-center items-center px-6 text-center max-w-md mx-auto">
-    <div class="p-6 rounded-full bg-[#141416] gold-border mb-6 animate-bounce">
+    <div class="p-6 rounded-full bg-[#141416] gold-border mb-6">
       <span class="text-5xl">🎬</span>
     </div>
     <h3 class="font-cinzel text-2xl font-bold gold-gradient-text mb-2">¡Listos para la Ronda!</h3>
-    <p id="waiting-message" class="text-sm text-gray-400 max-w-xs">
-      El moderador está preparando la siguiente categoría. ¡Atento a las pantallas!
+    <p id="waiting-message" class="text-xs text-gray-400 max-w-xs">
+      El moderador está preparando la siguiente categoría. ¡Atento a la pantalla principal!
     </p>
   </main>
 
@@ -107,23 +159,29 @@
 
   <!-- MODAL CAMBIAR DE USUARIO -->
   <div id="modal-users" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-end sm:items-center justify-center p-4">
-    <div class="bg-[#141416] gold-border w-full max-w-sm rounded-2xl p-6">
-      <h3 class="text-lg font-bold text-white mb-1">Cambiar Votante</h3>
-      <p class="text-xs text-gray-400 mb-4">Selecciona o registra otra persona para votar desde este teléfono.</p>
+    <div class="bg-[#141416] gold-border w-full max-w-sm rounded-2xl p-5">
+      <h3 class="text-base font-bold text-white mb-1">Cambiar Votante</h3>
+      <p class="text-xs text-gray-400 mb-3">Selecciona o registra otra persona para votar desde este teléfono.</p>
       
-      <div id="modal-users-list" class="space-y-2 mb-4 max-h-48 overflow-y-auto"></div>
+      <div id="modal-users-list" class="space-y-2 mb-3 max-h-40 overflow-y-auto"></div>
 
       <div class="pt-3 border-t border-gray-800">
         <input type="text" id="input-modal-fullname" placeholder="Nombre de otra persona" 
-               class="w-full bg-[#0B0B0C] border border-gray-700 rounded-xl px-4 py-2.5 text-sm text-white mb-3">
-        <button id="btn-modal-add-user" class="w-full gold-btn py-2.5 rounded-xl text-xs uppercase">
+               class="w-full bg-[#0B0B0C] border border-gray-700 rounded-xl px-4 py-2.5 text-xs text-white mb-2">
+        <button id="btn-modal-add-user" class="w-full gold-btn py-2.5 rounded-xl text-xs uppercase font-bold">
           + Agregar Nuevo Votante
         </button>
       </div>
-      <button id="btn-close-modal" class="w-full mt-3 py-2 text-xs text-gray-400">Cancelar</button>
+
+      <button id="btn-clear-local-users" class="w-full mt-3 py-2 text-[11px] text-red-400 font-semibold border border-red-500/20 rounded-xl bg-red-950/20">
+        🗑️ Limpiar usuarios de este celular
+      </button>
+
+      <button id="btn-close-modal" class="w-full mt-2 py-2 text-xs text-gray-400">Cancelar</button>
     </div>
   </div>
 
-  <script type="module" src="js/app.js"></script>
+  <!-- Carga del script con tipo modulo -->
+  <script type="module" src="./js/app.js"></script>
 </body>
 </html>
