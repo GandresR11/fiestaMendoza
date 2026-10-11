@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700&display=swap');
 :root {
   --gold-primary: #D4AF37;
   --gold-light: #FFD700;
@@ -51,6 +52,41 @@ body {
 @keyframes pulseGlow {
   0%, 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); }
   50% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.7); }
+}
+
+
+
+body {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0B0B0C;
+  color: #FFFFFF;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Efecto de texto dorado con soporte para WebView */
+.gold-gradient-text {
+  color: #FFD700; /* Respaldo si el degradado falla */
+  background: linear-gradient(135deg, #FFF5C0 0%, #D4AF37 50%, #AA7C11 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border: 1px solid #D4AF37;
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+.gold-border-active {
+  border: 2px solid #FFD700;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+}
+
+.gold-btn {
+  background-color: #D4AF37;
+  background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%);
+  color: #000000;
+  font-weight: 700;
 }
 
 .pulse-glow {
