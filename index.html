@@ -18,6 +18,24 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700&display=swap');
 
+    /* =========================================================
+       0. TOKENS (colores, easing y áreas seguras en un solo lugar)
+       ========================================================= */
+    :root {
+      --gold: #D4AF37;
+      --gold-light: #FFD700;
+      --gold-dark: #AA7C11;
+      --bg: #0B0B0C;
+      --surface: #141416;
+      --line: rgba(212, 175, 55, 0.4);
+      --muted: #9a9aa2;
+      --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+      color-scheme: dark;
+    }
+
+    /* =========================================================
+       1. BASE / RESET (mobile first)
+       ========================================================= */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -25,37 +43,97 @@
       -webkit-tap-highlight-color: transparent;
     }
 
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+      background-color: var(--bg);
+    }
+
     body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #0B0B0C;
+      font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.5;
       color: #FFFFFF;
       min-height: 100vh;
+      min-height: 100dvh; /* evita el salto de la barra del navegador en móvil */
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      background:
+        radial-gradient(120% 55% at 50% 0%, rgba(212, 175, 55, 0.12), transparent 65%),
+        var(--bg);
+      background-repeat: no-repeat;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-wrap: break-word;
+    }
+
+    /* Bloquea el scroll del fondo cuando el modal está abierto */
+    body:has(.modal-overlay:not(.hidden)) { overflow: hidden; }
+
+    button, input {
+      font-family: inherit;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    button {
+      cursor: pointer;
+      touch-action: manipulation; /* quita el retraso de 300ms al tocar */
+      -webkit-user-select: none;
+      user-select: none;
+    }
+
+    /* Foco visible solo para teclado */
+    :focus-visible {
+      outline: 2px solid var(--gold-light);
+      outline-offset: 2px;
     }
 
     /* Clases de Utilidad y Diseño */
     .hidden { display: none !important; }
-    
+    .text-center { text-align: center; }
+
+    /* =========================================================
+       2. CABECERA
+       ========================================================= */
     header.app-header {
       position: sticky;
       top: 0;
       z-index: 50;
-      background-color: #121214;
+      background-color: rgba(18, 18, 20, 0.88);
+      -webkit-backdrop-filter: blur(12px);
+      backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-      padding: 12px 16px;
+      padding:
+        max(10px, env(safe-area-inset-top))
+        max(16px, env(safe-area-inset-right))
+        10px
+        max(16px, env(safe-area-inset-left));
       display: flex;
       justify-content: space-between;
       align-items: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      gap: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     }
 
+    #btn-switch-user {
+      min-height: 44px; /* tamaño mínimo táctil */
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: background-color 0.2s, transform 0.15s var(--ease-out);
+    }
+    #btn-switch-user:active { transform: scale(0.96); background-color: #2e2a1a !important; }
+
+    /* =========================================================
+       3. CONTENEDOR PRINCIPAL + TRANSICIÓN ENTRE PANTALLAS
+       ========================================================= */
     main {
       width: 100%;
       max-width: 420px;
       margin: 0 auto;
-      padding: 24px 20px;
+      padding: 20px 16px;
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -63,50 +141,69 @@
       align-items: center;
     }
 
-    .text-center { text-align: center; }
-    
+    /* Cada vez que una vista deja de estar oculta, entra suavemente */
+    main:not(.hidden) { animation: view-in 0.4s var(--ease-out) both; }
+
+    @keyframes view-in {
+      from { opacity: 0; transform: translateY(14px); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    /* =========================================================
+       4. TIPOGRAFÍA
+       ========================================================= */
     .gold-title {
-      font-family: 'Cinzel', serif;
-      font-size: 26px;
+      font-family: 'Cinzel', 'Times New Roman', serif;
+      font-size: clamp(22px, 7vw, 30px); /* escala con el ancho del teléfono */
       font-weight: 800;
+      line-height: 1.2;
+      padding-bottom: 0.1em; /* evita recortar el degradado en las letras con rabito */
+      letter-spacing: 0.02em;
+      text-wrap: balance;
+      color: var(--gold); /* respaldo si el navegador no soporta background-clip:text */
       background: linear-gradient(135deg, #FFF5C0 0%, #D4AF37 50%, #AA7C11 100%);
       -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-top: 10px;
     }
 
+    /* =========================================================
+       5. TARJETAS, INPUTS Y BOTONES
+       ========================================================= */
     .card-gala {
-      background-color: #141416;
-      border: 1px solid rgba(212, 175, 55, 0.4);
+      background: linear-gradient(180deg, #171719 0%, var(--surface) 100%);
+      border: 1px solid var(--line);
       border-radius: 16px;
-      padding: 24px;
+      padding: 20px;
       width: 100%;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
       margin-top: 15px;
-    }
-
-    .card-gala-active {
-      border: 2px solid #FFD700;
-      box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+      transition: border-color 0.25s, box-shadow 0.25s;
     }
 
     input[type="text"] {
       width: 100%;
-      background-color: #0B0B0C;
+      min-height: 48px;
+      background-color: var(--bg);
       border: 1px solid #444;
       border-radius: 12px;
-      padding: 14px;
+      padding: 12px 14px;
       color: #FFF;
-      font-size: 15px;
+      font-size: 16px; /* 16px evita el zoom automático de iOS al enfocar */
       outline: none;
       margin-bottom: 16px;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
+    input[type="text"]::placeholder { color: #6b6b72; }
     input[type="text"]:focus {
-      border-color: #D4AF37;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.22);
     }
 
     .gold-btn {
       width: 100%;
+      min-height: 48px;
       background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%);
       color: #000000;
       font-weight: 700;
@@ -116,71 +213,193 @@
       font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 1px;
-      cursor: pointer;
       box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+      transition: transform 0.15s var(--ease-out), box-shadow 0.2s, filter 0.2s, opacity 0.2s;
     }
-    .gold-btn:active { transform: scale(0.98); }
+    .gold-btn:active {
+      transform: scale(0.97);
+      filter: brightness(0.92);
+      box-shadow: 0 2px 8px rgba(212, 175, 55, 0.25);
+    }
+    .gold-btn:disabled { opacity: 0.5; pointer-events: none; }
 
     .badge {
-      font-size: 10px;
+      display: inline-block;
+      font-size: 11px;
       font-weight: bold;
-      color: #FFD700;
+      color: var(--gold-light);
       border: 1px solid rgba(255, 215, 0, 0.4);
-      padding: 4px 12px;
+      padding: 5px 14px;
       border-radius: 20px;
       background: rgba(255, 215, 0, 0.05);
       text-transform: uppercase;
       letter-spacing: 1px;
     }
 
+    /* =========================================================
+       6. NOMINADOS
+       ========================================================= */
     .nominee-row {
-      background-color: #141416;
-      border: 1px solid rgba(212, 175, 55, 0.4);
+      background-color: var(--surface);
+      border: 1px solid var(--line);
       border-radius: 16px;
-      padding: 14px;
+      padding: 12px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 12px;
       margin-bottom: 12px;
       width: 100%;
+      touch-action: manipulation;
+      transition: border-color 0.25s, box-shadow 0.25s, background-color 0.2s;
     }
+    .nominee-row:active { background-color: #1b1b1e; }
+    .nominee-row button { min-height: 44px; min-width: 44px; }
+    .nominee-row button:active { transform: scale(0.95); }
 
     .nominee-img {
-      width: 60px;
-      height: 60px;
+      width: 56px;
+      height: 56px;
+      flex-shrink: 0; /* el avatar nunca se aplasta si el nombre es largo */
       border-radius: 50%;
       object-fit: cover;
-      border: 2px solid #D4AF37;
+      background-color: #222; /* color mientras carga la foto */
+      border: 2px solid var(--gold);
     }
 
+    /* Estado seleccionado / activo: mismo borde de 1px + anillo,
+       así no cambia el tamaño de la tarjeta (sin saltos de layout) */
+    .card-gala-active,
+    .nominee-row.card-gala-active {
+      border: 1px solid var(--gold-light);
+      box-shadow: 0 0 0 1px var(--gold-light), 0 0 25px rgba(255, 215, 0, 0.4);
+    }
+
+    /* Confirmación de voto */
+    #voted-feedback:not(.hidden) { animation: pop-in 0.45s var(--ease-out) both; }
+
+    @keyframes pop-in {
+      from { opacity: 0; transform: scale(0.94); }
+      to   { opacity: 1; transform: none; }
+    }
+
+    /* =========================================================
+       7. LISTAS CON SCROLL (usuarios guardados / modal)
+       ========================================================= */
+    #saved-users-list,
+    #modal-users-list {
+      overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(212, 175, 55, 0.5) transparent;
+    }
+    #saved-users-list button,
+    #modal-users-list button {
+      min-height: 44px;
+      transition: transform 0.15s var(--ease-out), background-color 0.2s, border-color 0.2s;
+    }
+    #saved-users-list button:active,
+    #modal-users-list button:active { transform: scale(0.98); }
+
+    #btn-clear-local-users,
+    #btn-close-modal { min-height: 44px; }
+
+    /* =========================================================
+       8. PIE
+       ========================================================= */
     footer {
       text-align: center;
-      padding: 16px;
-      font-size: 10px;
-      color: #666;
+      padding: 16px 16px calc(16px + env(safe-area-inset-bottom, 0px));
+      font-size: 11px;
+      color: #85858d; /* más contraste que #666 sobre fondo negro */
       border-top: 1px solid #1a1a1a;
     }
 
-    /* Modal */
+    /* =========================================================
+       9. MODAL: hoja inferior en móvil, centrado en pantallas grandes
+       ========================================================= */
     .modal-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.85);
+      background: rgba(0, 0, 0, 0.85);
+      -webkit-backdrop-filter: blur(4px);
       backdrop-filter: blur(4px);
       z-index: 100;
       display: flex;
-      align-items: center;
+      align-items: flex-end; /* pegado abajo: se alcanza con el pulgar */
       justify-content: center;
-      padding: 20px;
+      padding: 0;
+      overscroll-behavior: contain;
+      animation: fade-in 0.25s ease both;
     }
     .modal-box {
-      background-color: #141416;
-      border: 1px solid #D4AF37;
-      border-radius: 20px;
+      background-color: var(--surface);
+      border: 1px solid var(--gold);
+      border-bottom: none;
+      border-radius: 20px 20px 0 0;
       width: 100%;
-      max-width: 340px;
-      padding: 24px;
+      max-width: 480px;
+      max-height: 90vh;
+      max-height: 90dvh;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding: 12px 20px calc(20px + env(safe-area-inset-bottom, 0px));
+      animation: sheet-up 0.35s var(--ease-out) both;
+    }
+    /* Manija visual de la hoja */
+    .modal-box::before {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 4px;
+      border-radius: 2px;
+      background: #3a3a3f;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes fade-in  { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes sheet-up { from { transform: translateY(100%); } to { transform: none; } }
+
+    /* =========================================================
+       10. PANTALLAS MÁS GRANDES (mejoras progresivas)
+       ========================================================= */
+    @media (min-width: 480px) {
+      main { padding: 32px 20px; }
+      .card-gala { padding: 28px; }
+      .nominee-row { padding: 14px; }
+      .nominee-img { width: 64px; height: 64px; }
+
+      .modal-overlay { align-items: center; padding: 20px; }
+      .modal-box {
+        max-width: 360px;
+        border: 1px solid var(--gold);
+        border-radius: 20px;
+        padding: 24px;
+        animation-name: pop-in;
+      }
+      .modal-box::before { display: none; }
+    }
+
+    @media (min-width: 768px) {
+      main { max-width: 480px; padding-block: 48px; }
+    }
+
+    /* Solo muestra hover en dispositivos que realmente lo tienen */
+    @media (hover: hover) {
+      .gold-btn:hover { filter: brightness(1.08); box-shadow: 0 6px 20px rgba(212, 175, 55, 0.45); }
+      .nominee-row:hover { border-color: var(--gold-light); }
+      #btn-switch-user:hover { background-color: #2a2614 !important; }
+      #saved-users-list button:hover,
+      #modal-users-list button:hover { border-color: var(--gold-light); }
+    }
+
+    /* Respeta a quien desactiva las animaciones en su dispositivo */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
     }
   </style>
 </head>
