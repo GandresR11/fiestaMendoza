@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Premios Mendoza -26- Votación en Vivo</title>
+  <title>Premios Mendoza --2026-- Votación en Vivo</title>
 
   <script>
     // Anti-InApp Browser (Escape de WhatsApp / Instagram en Android)
@@ -14,7 +14,7 @@
     }
   </script>
 
-  <!-- CSS AUTOCONTENIDO DEFINITIVO -->
+  <!-- CSS AUTOCONTENIDO Y BLINDADO PARA MÓVILES Y WEB -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700&display=swap');
 
@@ -105,7 +105,7 @@
       border-color: #D4AF37;
     }
 
-    /* Botón Dorado Principal */
+    /* Botón Dorado Principal de Login */
     .gold-btn {
       width: 100%;
       background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%) !important;
@@ -135,7 +135,7 @@
     }
 
     /* =========================================================
-       TARJETAS DE NOMINADOS (ESTRUCTURA DE FILA PERFECTA)
+       TARJETAS DE NOMINADOS (COHERENCIA ANTES Y DESPUÉS DE VOTAR)
        ========================================================= */
     #nominado-cards-container > div {
       background: linear-gradient(145deg, #161619, #101012) !important;
@@ -175,13 +175,16 @@
     }
 
     /* Nombre del Nominado (Horizontal y fluido al centro) */
-    #nominado-cards-container h4 {
+    #nominado-cards-container h4,
+    #nominado-cards-container p,
+    #nominado-cards-container span:not(.badge) {
       font-size: 14px !important;
       font-weight: 700 !important;
       color: #FFFFFF !important;
       margin: 0 !important;
-      flex: 1 !important;
+      flex: 1 1 auto !important;
       min-width: 0 !important;
+      max-width: 100% !important;
       white-space: normal !important;
       word-break: normal !important;
       overflow-wrap: break-word !important;
@@ -189,13 +192,16 @@
       text-align: left !important;
     }
 
-    /* Botón de Votar compacto y alineado a la derecha */
-    #nominado-cards-container button {
+    /* Botón de Votar (Bloqueado contra clases w-full de JS) */
+    #nominado-cards-container button,
+    #nominado-cards-container .w-full {
+      width: auto !important;
+      max-width: 110px !important;
       background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%) !important;
       color: #000000 !important;
       font-size: 11px !important;
       font-weight: 800 !important;
-      padding: 10px 16px !important;
+      padding: 10px 14px !important;
       border-radius: 10px !important;
       text-transform: uppercase !important;
       letter-spacing: 0.5px !important;
@@ -209,16 +215,16 @@
       transform: scale(0.95);
     }
 
-    /* Estados del Botón */
-    .bg-green-600 {
-      background: #16a34a !important;
-      color: #FFFFFF !important;
-    }
-    
-    .bg-gray-800 {
-      background: #262626 !important;
-      color: #737373 !important;
+    /* Estado del Botón Después de Votar / Deshabilitado */
+    #nominado-cards-container button:disabled,
+    #nominado-cards-container button.bg-green-600,
+    #nominado-cards-container button.bg-gray-800 {
+      background: #1e293b !important;
+      color: #94a3b8 !important;
+      border: 1px solid #334155 !important;
       box-shadow: none !important;
+      cursor: default !important;
+      opacity: 0.9 !important;
     }
 
     /* Pie de página */
@@ -315,7 +321,7 @@
       <p id="cat-desc" style="font-size: 12px; color: #9a9a9a; margin-top: 6px; line-height: 1.4;">...</p>
     </div>
 
-    <!-- Tarjetas de nominados corregidas en fila -->
+    <!-- Tarjetas de nominados sincronizadas -->
     <div id="nominado-cards-container" class="w-full"></div>
 
     <!-- Feedback -->
