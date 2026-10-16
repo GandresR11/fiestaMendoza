@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Premios Mendoza -2026- Votación en Vivo</title>
+  <title>Premios Mendoza 2026 Votación en Vivo</title>
 
   <script>
     // Anti-InApp Browser (Escape de WhatsApp / Instagram en Android)
@@ -14,7 +14,7 @@
     }
   </script>
 
-  <!-- TODO EL CSS AUTOCONTENIDO (Sin dependencias externas ni CDN) -->
+  <!-- CSS AUTOCONTENIDO DE ALTA GALA -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Montserrat:wght@400;600;700&display=swap');
 
@@ -26,7 +26,7 @@
     }
 
     body {
-      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+      font-family: 'Montserrat', sans-serif !important;
       background-color: #0B0B0C !important;
       color: #FFFFFF !important;
       min-height: 100vh;
@@ -35,7 +35,6 @@
       justify-content: space-between;
     }
 
-    /* Clases de Utilidad Generales */
     .hidden { display: none !important; }
     .text-center { text-align: center; }
     .w-full { width: 100%; }
@@ -54,12 +53,12 @@
       box-shadow: 0 4px 15px rgba(0,0,0,0.8);
     }
 
-    /* Contenedor Principal Ajustado a Celular */
+    /* Contenedor Principal */
     main {
       width: 100%;
-      max-width: 420px;
+      max-width: 440px;
       margin: 0 auto;
-      padding: 20px 16px;
+      padding: 24px 16px;
       flex: 1;
       display: flex;
       flex-direction: column;
@@ -67,40 +66,40 @@
       align-items: center;
     }
 
-    /* Títulos Elegantes */
+    /* Títulos Estilo Óscar */
     .gold-title {
       font-family: 'Cinzel', serif !important;
-      font-size: 24px;
+      font-size: 26px;
       font-weight: 800;
       color: #FFD700;
       background: linear-gradient(135deg, #FFF5C0 0%, #D4AF37 50%, #AA7C11 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      margin-top: 8px;
+      margin-top: 6px;
+      line-height: 1.2;
     }
 
-    /* Tarjetas de Gala */
+    /* Tarjetas Generales y Formularios */
     .card-gala {
       background-color: #141416;
       border: 1px solid rgba(212, 175, 55, 0.4);
       border-radius: 16px;
-      padding: 20px;
+      padding: 24px;
       width: 100%;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
-      margin-top: 10px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+      margin-top: 15px;
     }
 
-    /* Inputs y Formularios */
     input[type="text"] {
       width: 100%;
       background-color: #0B0B0C;
       border: 1px solid #444;
       border-radius: 12px;
-      padding: 12px 14px;
+      padding: 14px;
       color: #FFF;
-      font-size: 14px;
+      font-size: 15px;
       outline: none;
-      margin-bottom: 14px;
+      margin-bottom: 16px;
     }
     input[type="text"]:focus {
       border-color: #D4AF37;
@@ -112,110 +111,112 @@
       background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%) !important;
       color: #000000 !important;
       font-weight: 700 !important;
-      padding: 12px 16px;
+      padding: 14px;
       border: none;
       border-radius: 12px;
       font-size: 13px;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       cursor: pointer;
       box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
-      display: inline-block;
-      text-align: center;
     }
     .gold-btn:active { transform: scale(0.97); }
 
-    /* Insignia / Badge de Categoría */
+    /* Insignia / Badge */
     .badge {
       font-size: 10px;
-      font-weight: bold;
+      font-weight: 800;
       color: #FFD700;
       border: 1px solid rgba(255, 215, 0, 0.4);
-      padding: 4px 12px;
+      padding: 5px 14px;
       border-radius: 20px;
       background: rgba(255, 215, 0, 0.08);
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
     }
 
     /* =========================================================
-       ESTILOS DEL CONTENIDO DINÁMICO (Inyectado por JavaScript)
+       TARJETAS DE NOMINADOS (Alineación Perfecta en Fila)
        ========================================================= */
-
-    /* Tarjeta de Cada Nominado */
     #nominado-cards-container .bg-\[\#141416\], 
     #nominado-cards-container > div {
-      background-color: #141416 !important;
-      border: 1px solid rgba(212, 175, 55, 0.4) !important;
+      background: linear-gradient(145deg, #161619, #101012) !important;
+      border: 1px solid rgba(212, 175, 55, 0.35) !important;
       border-radius: 16px !important;
-      padding: 12px 14px !important;
+      padding: 14px 16px !important;
       display: flex !important;
       flex-direction: row !important;
       align-items: center !important;
       justify-content: space-between !important;
-      gap: 12px !important;
-      margin-bottom: 12px !important;
+      gap: 14px !important;
+      margin-bottom: 14px !important;
       width: 100% !important;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.7);
+      transition: all 0.2s ease;
     }
 
-    /* Tarjeta Seleccionada / Votada */
+    /* Efecto cuando una tarjeta es la seleccionada / votada */
     .gold-border-active {
       border: 2px solid #FFD700 !important;
-      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4) !important;
+      background: linear-gradient(145deg, #1d1b12, #101012) !important;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.35) !important;
     }
 
-    /* Fotos de los Nominados (Control de tamaño estricto) */
+    /* Foto Circular del Nominado */
     #nominado-cards-container img {
-      width: 60px !important;
-      height: 60px !important;
-      min-width: 60px !important;
-      min-height: 60px !important;
-      max-width: 60px !important;
-      max-height: 60px !important;
+      width: 65px !important;
+      height: 65px !important;
+      min-width: 65px !important;
+      min-height: 65px !important;
       border-radius: 50% !important;
       object-fit: cover !important;
       border: 2px solid #D4AF37 !important;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
       flex-shrink: 0 !important;
     }
 
-    /* Nombre del Nominado */
+    /* Nombre del Nominado (Flexible al centro) */
     #nominado-cards-container h4 {
-      font-size: 14px !important;
+      font-size: 15px !important;
       font-weight: 700 !important;
       color: #FFFFFF !important;
       margin: 0 !important;
-      line-height: 1.2 !important;
+      flex: 1 !important;
+      line-height: 1.3 !important;
+      text-align: left !important;
     }
 
     /* Botón de Votar dentro de la tarjeta */
     #nominado-cards-container button {
+      background: linear-gradient(135deg, #D4AF37 0%, #AA7C11 100%) !important;
+      color: #000000 !important;
       font-size: 11px !important;
-      padding: 8px 14px !important;
-      border-radius: 10px !important;
       font-weight: 800 !important;
+      padding: 10px 18px !important;
+      border-radius: 10px !important;
       text-transform: uppercase !important;
-      letter-spacing: 0.5px !important;
+      letter-spacing: 1px !important;
       border: none !important;
       cursor: pointer !important;
       white-space: nowrap !important;
       flex-shrink: 0 !important;
+      box-shadow: 0 3px 10px rgba(212,175,55,0.3);
+      transition: transform 0.1s ease;
+    }
+    #nominado-cards-container button:active {
+      transform: scale(0.95);
     }
 
-    /* Botón Deshabilitado / Ya Votó */
-    #nominado-cards-container button:disabled {
-      cursor: not-allowed !important;
-      opacity: 0.8 !important;
-    }
-    
+    /* Estados del Botón (Votado / Bloqueado) */
     .bg-green-600 {
-      background-color: #16a34a !important;
+      background: #16a34a !important;
       color: #FFFFFF !important;
     }
     
     .bg-gray-800 {
-      background-color: #1f2937 !important;
-      color: #6b7280 !important;
+      background: #262626 !important;
+      color: #737373 !important;
+      box-shadow: none !important;
     }
 
     /* Pie de página */
@@ -223,8 +224,8 @@
       text-align: center;
       padding: 16px;
       font-size: 10px;
-      color: #666;
-      border-top: 1px solid #1a1a1a;
+      color: #555;
+      border-top: 1px solid #161618;
       width: 100%;
     }
 
@@ -246,18 +247,18 @@
       border-radius: 20px;
       width: 100%;
       max-width: 340px;
-      padding: 20px;
+      padding: 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.9);
     }
 
-    /* Botones de Usuarios Guardados en Lista */
     #saved-users-list button,
     #modal-users-list button {
       width: 100%;
       text-align: left;
       background-color: #0B0B0C;
       border: 1px solid #333;
-      padding: 10px 14px;
-      border-radius: 10px;
+      padding: 12px 14px;
+      border-radius: 12px;
       font-size: 13px;
       font-weight: 600;
       color: #DDD;
@@ -266,10 +267,6 @@
       align-items: center;
       cursor: pointer;
     }
-    #saved-users-list button:active,
-    #modal-users-list button:active {
-      border-color: #D4AF37;
-    }
   </style>
 </head>
 <body>
@@ -277,22 +274,22 @@
   <!-- CABECERA PERSISTENTE -->
   <header id="app-header" class="app-header hidden">
     <div>
-      <p style="font-size: 10px; color: #888; text-transform: uppercase;">Votando como:</p>
-      <p id="current-user-display" style="font-weight: bold; color: #FFD700; font-size: 14px; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Invitado</p>
+      <p style="font-size: 9px; color: #888; text-transform: uppercase; letter-spacing: 1px;">Votando como:</p>
+      <p id="current-user-display" style="font-weight: bold; color: #FFD700; font-size: 14px; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">Invitado</p>
     </div>
-    <button id="btn-switch-user" style="font-size: 11px; background: #222; border: 1px solid #D4AF37; color: #FFD700; font-weight: 600; padding: 6px 12px; border-radius: 20px; cursor: pointer;">
+    <button id="btn-switch-user" style="font-size: 11px; background: #1a1a1c; border: 1px solid #D4AF37; color: #FFD700; font-weight: 600; padding: 6px 12px; border-radius: 20px; cursor: pointer;">
       + Cambiar / Agregar
     </button>
   </header>
 
   <!-- PANTALLA 1: LOGUEO -->
   <main id="view-login">
-    <div class="text-center" style="margin-bottom: 20px;">
-      <div style="display: inline-block; padding: 14px; border-radius: 50%; border: 1px solid rgba(212,175,55,0.4); background: #141416; margin-bottom: 10px;">
-        <span style="font-size: 32px;">🏆</span>
+    <div class="text-center" style="margin-bottom: 24px;">
+      <div style="display: inline-block; padding: 16px; border-radius: 50%; border: 1px solid rgba(212,175,55,0.4); background: #141416; margin-bottom: 12px; box-shadow: 0 0 20px rgba(212,175,55,0.15);">
+        <span style="font-size: 36px;">🏆</span>
       </div>
       <h1 class="gold-title">LOS PREMIOS MENDOZA</h1>
-      <p style="font-size: 10px; color: #888; margin-top: 4px; text-transform: uppercase; letter-spacing: 2px;">Noche de Gala Familiar</p>
+      <p style="font-size: 10px; color: #888; margin-top: 6px; text-transform: uppercase; letter-spacing: 3px;">Noche de Gala Familiar</p>
     </div>
 
     <!-- Usuarios Guardados -->
@@ -301,7 +298,7 @@
       <div id="saved-users-list" style="display: flex; flex-direction: column; gap: 8px; max-height: 140px; overflow-y: auto;"></div>
     </div>
 
-    <!-- Formulario para Nuevo Usuario -->
+    <!-- Formulario -->
     <div class="card-gala">
       <label style="display: block; font-size: 11px; font-weight: 600; color: #ccc; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 1px;">Ingresa tu Nombre y Apellido:</label>
       <input type="text" id="input-fullname" placeholder="Ej: Tío Carlos Mendoza">
@@ -309,19 +306,19 @@
     </div>
   </main>
 
-  <!-- PANTALLA 2: VOTACIÓN EN CURSO -->
+  <!-- PANTALLA 2: VOTACIÓN -->
   <main id="view-voting" class="hidden" style="justify-content: flex-start;">
-    <div id="category-header" class="text-center" style="margin-bottom: 16px; width: 100%;">
+    <div id="category-header" class="text-center" style="margin-bottom: 20px; width: 100%;">
       <span class="badge">Categoría en Curso</span>
       <h2 id="cat-title" style="font-family: 'Cinzel', serif; font-size: 22px; font-weight: bold; color: #FFF; margin-top: 10px;">Cargando...</h2>
-      <p id="cat-desc" style="font-size: 12px; color: #999; margin-top: 4px;">...</p>
+      <p id="cat-desc" style="font-size: 12px; color: #9a9a9a; margin-top: 6px; line-height: 1.4;">...</p>
     </div>
 
-    <!-- Contenedor donde JS inyecta las fotos y los botones -->
+    <!-- Tarjetas de nominados en línea -->
     <div id="nominado-cards-container" class="w-full"></div>
 
-    <!-- Confirmación de voto -->
-    <div id="voted-feedback" class="hidden" style="background: rgba(20,83,45,0.4); border: 1px solid rgba(34,197,94,0.5); padding: 14px; border-radius: 12px; text-align: center; width: 100%; margin-top: 10px;">
+    <!-- Feedback -->
+    <div id="voted-feedback" class="hidden" style="background: rgba(20,83,45,0.4); border: 1px solid rgba(34,197,94,0.5); padding: 16px; border-radius: 14px; text-align: center; width: 100%; margin-top: 15px;">
       <p style="color: #4ade80; font-size: 13px; font-weight: bold;">¡Tu voto ha sido registrado! 🎉</p>
       <p style="font-size: 11px; color: #ccc; margin-top: 4px;">Espera en pantalla a que el moderador abra la siguiente categoría.</p>
     </div>
@@ -329,11 +326,11 @@
 
   <!-- PANTALLA 3: ESPERA -->
   <main id="view-waiting" class="hidden">
-    <div style="padding: 20px; border-radius: 50%; background: #141416; border: 1px solid #D4AF37; margin-bottom: 20px;">
-      <span style="font-size: 40px;">🎬</span>
+    <div style="padding: 24px; border-radius: 50%; background: #141416; border: 1px solid #D4AF37; margin-bottom: 20px; box-shadow: 0 0 25px rgba(212,175,55,0.2);">
+      <span style="font-size: 42px;">🎬</span>
     </div>
     <h3 class="gold-title" style="font-size: 22px; margin-bottom: 8px;">¡Listos para la Ronda!</h3>
-    <p id="waiting-message" style="font-size: 12px; color: #888; max-width: 280px; text-align: center;">
+    <p id="waiting-message" style="font-size: 12px; color: #888; max-width: 280px; text-align: center; line-height: 1.5;">
       El moderador está preparando la siguiente categoría. ¡Atento a la pantalla principal!
     </p>
   </main>
@@ -342,20 +339,20 @@
     Edición Especial Gala Mendoza &copy; Todos los derechos reservados
   </footer>
 
-  <!-- MODAL CAMBIAR USUARIO -->
+  <!-- MODAL -->
   <div id="modal-users" class="modal-overlay hidden">
     <div class="modal-box">
-      <h3 style="font-size: 15px; font-weight: bold; color: #FFF; margin-bottom: 4px;">Cambiar Votante</h3>
-      <p style="font-size: 11px; color: #888; margin-bottom: 12px;">Selecciona o registra otra persona para votar desde este teléfono.</p>
+      <h3 style="font-size: 16px; font-weight: bold; color: #FFF; margin-bottom: 4px;">Cambiar Votante</h3>
+      <p style="font-size: 11px; color: #888; margin-bottom: 14px;">Selecciona o registra otra persona para votar desde este teléfono.</p>
       
-      <div id="modal-users-list" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; max-height: 140px; overflow-y: auto;"></div>
+      <div id="modal-users-list" style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; max-height: 140px; overflow-y: auto;"></div>
 
-      <div style="border-top: 1px solid #222; padding-top: 12px;">
-        <input type="text" id="input-modal-fullname" placeholder="Nombre de otra persona" style="margin-bottom: 8px;">
-        <button id="btn-modal-add-user" class="gold-btn" style="padding: 10px; font-size: 12px;">+ Agregar Nuevo Votante</button>
+      <div style="border-top: 1px solid #222; padding-top: 14px;">
+        <input type="text" id="input-modal-fullname" placeholder="Nombre de otra persona" style="margin-bottom: 10px;">
+        <button id="btn-modal-add-user" class="gold-btn" style="padding: 11px; font-size: 12px;">+ Agregar Nuevo Votante</button>
       </div>
 
-      <button id="btn-clear-local-users" style="width: 100%; margin-top: 10px; padding: 10px; font-size: 11px; font-weight: 600; color: #f87171; background: rgba(127,29,29,0.2); border: 1px solid rgba(248,113,113,0.3); border-radius: 12px; cursor: pointer;">
+      <button id="btn-clear-local-users" style="width: 100%; margin-top: 12px; padding: 11px; font-size: 11px; font-weight: 600; color: #f87171; background: rgba(127,29,29,0.2); border: 1px solid rgba(248,113,113,0.3); border-radius: 12px; cursor: pointer;">
         🗑️ Limpiar usuarios de este celular
       </button>
 
