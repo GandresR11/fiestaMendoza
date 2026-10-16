@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Premios Mendoza - Votación en Vivo</title>
+  <title>Premios Mendoza --- Votación en Vivo</title>
 
   <script>
     // Script de escape para navegadores embebidos (Instagram / WhatsApp en Android)
@@ -22,13 +22,12 @@
        0. TOKENS (colores, easing y áreas seguras en un solo lugar)
        ========================================================= */
     :root {
-      --gold: #D4AF37;
+      --gold-primary: #D4AF37;
       --gold-light: #FFD700;
       --gold-dark: #AA7C11;
-      --bg: #0B0B0C;
-      --surface: #141416;
+      --bg-dark: #0B0B0C;
+      --card-bg: #141416;
       --line: rgba(212, 175, 55, 0.4);
-      --muted: #9a9aa2;
       --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
       color-scheme: dark;
     }
@@ -46,11 +45,11 @@
     html {
       -webkit-text-size-adjust: 100%;
       text-size-adjust: 100%;
-      background-color: var(--bg);
+      background-color: var(--bg-dark);
     }
 
     body {
-      font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
       line-height: 1.5;
       color: #FFFFFF;
       min-height: 100vh;
@@ -58,10 +57,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      background:
-        radial-gradient(120% 55% at 50% 0%, rgba(212, 175, 55, 0.12), transparent 65%),
-        var(--bg);
-      background-repeat: no-repeat;
+      background-color: var(--bg-dark);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       overflow-wrap: break-word;
@@ -152,6 +148,18 @@
     /* =========================================================
        4. TIPOGRAFÍA
        ========================================================= */
+    .font-cinzel { font-family: 'Cinzel', 'Times New Roman', serif; }
+
+    /* Efecto de texto dorado Óscar (con respaldo para WebView) */
+    .gold-gradient-text,
+    .gold-title {
+      color: var(--gold-light); /* respaldo si el degradado falla */
+      background: linear-gradient(135deg, #FFF5C0 0%, #D4AF37 50%, #AA7C11 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
     .gold-title {
       font-family: 'Cinzel', 'Times New Roman', serif;
       font-size: clamp(22px, 7vw, 30px); /* escala con el ancho del teléfono */
@@ -160,11 +168,6 @@
       padding-bottom: 0.1em; /* evita recortar el degradado en las letras con rabito */
       letter-spacing: 0.02em;
       text-wrap: balance;
-      color: var(--gold); /* respaldo si el navegador no soporta background-clip:text */
-      background: linear-gradient(135deg, #FFF5C0 0%, #D4AF37 50%, #AA7C11 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
       margin-top: 10px;
     }
 
@@ -172,7 +175,7 @@
        5. TARJETAS, INPUTS Y BOTONES
        ========================================================= */
     .card-gala {
-      background: linear-gradient(180deg, #171719 0%, var(--surface) 100%);
+      background-color: var(--card-bg);
       border: 1px solid var(--line);
       border-radius: 16px;
       padding: 20px;
@@ -185,7 +188,7 @@
     input[type="text"] {
       width: 100%;
       min-height: 48px;
-      background-color: var(--bg);
+      background-color: var(--bg-dark);
       border: 1px solid #444;
       border-radius: 12px;
       padding: 12px 14px;
@@ -197,7 +200,7 @@
     }
     input[type="text"]::placeholder { color: #6b6b72; }
     input[type="text"]:focus {
-      border-color: var(--gold);
+      border-color: var(--gold-primary);
       box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.22);
     }
 
@@ -214,7 +217,7 @@
       text-transform: uppercase;
       letter-spacing: 1px;
       box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
-      transition: transform 0.15s var(--ease-out), box-shadow 0.2s, filter 0.2s, opacity 0.2s;
+      transition: all 0.3s ease, transform 0.15s var(--ease-out);
     }
     .gold-btn:active {
       transform: scale(0.97);
@@ -240,7 +243,7 @@
        6. NOMINADOS
        ========================================================= */
     .nominee-row {
-      background-color: var(--surface);
+      background-color: var(--card-bg);
       border: 1px solid var(--line);
       border-radius: 16px;
       padding: 12px;
@@ -264,16 +267,31 @@
       border-radius: 50%;
       object-fit: cover;
       background-color: #222; /* color mientras carga la foto */
-      border: 2px solid var(--gold);
+      border: 2px solid var(--gold-primary);
+    }
+
+    /* Borde dorado de gala */
+    .gold-border {
+      border: 1px solid var(--line);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
     }
 
     /* Estado seleccionado / activo: mismo borde de 1px + anillo,
        así no cambia el tamaño de la tarjeta (sin saltos de layout) */
     .card-gala-active,
-    .nominee-row.card-gala-active {
+    .gold-border-active,
+    .nominee-row.card-gala-active,
+    .nominee-row.gold-border-active {
       border: 1px solid var(--gold-light);
       box-shadow: 0 0 0 1px var(--gold-light), 0 0 25px rgba(255, 215, 0, 0.4);
     }
+
+    /* Brillo pulsante */
+    @keyframes pulseGlow {
+      0%, 100% { box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); }
+      50%      { box-shadow: 0 0 30px rgba(255, 215, 0, 0.7); }
+    }
+    .pulse-glow { animation: pulseGlow 2s infinite; }
 
     /* Confirmación de voto */
     #voted-feedback:not(.hidden) { animation: pop-in 0.45s var(--ease-out) both; }
@@ -333,8 +351,8 @@
       animation: fade-in 0.25s ease both;
     }
     .modal-box {
-      background-color: var(--surface);
-      border: 1px solid var(--gold);
+      background-color: var(--card-bg);
+      border: 1px solid var(--gold-primary);
       border-bottom: none;
       border-radius: 20px 20px 0 0;
       width: 100%;
@@ -372,7 +390,7 @@
       .modal-overlay { align-items: center; padding: 20px; }
       .modal-box {
         max-width: 360px;
-        border: 1px solid var(--gold);
+        border: 1px solid var(--gold-primary);
         border-radius: 20px;
         padding: 24px;
         animation-name: pop-in;
