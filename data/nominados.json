@@ -22,7 +22,7 @@
         { "id": "nom_202", "nombre": "Marcela", "foto": "https://lh3.googleusercontent.com/d/1wg1LE3CkecJHVA69IqrcNi_1yjS_KwGM" },
         { "id": "nom_203", "nombre": "Javier", "foto": "https://lh3.googleusercontent.com/d/1-avQe3qzpf29o9FocXDef-bcb5WM8ub_" },
         { "id": "nom_204", "nombre": "Milena", "foto": "https://lh3.googleusercontent.com/d/10qYxidycs4PSdzMmrGU3UInabYJa2K6W" },
-        { "id": "nom_205", "nombre": "Edgar", "foto": "" }
+        { "id": "nom_205", "nombre": "Edgar", "foto": "https://lh3.googleusercontent.com/d/10OaZoyzVQwzNR4FEDid10RuHZ9bRW94l" }
       ]
     },
     {
@@ -30,10 +30,10 @@
       "titulo": "🎤 El turpial/ruiseñor de la familia",
       "descripcion": "Para el cantante oficial  de la familia.",
       "nominados": [
-        { "id": "nom_301", "nombre": "Gloria", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_302", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_303", "nombre": "Julian", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_304", "nombre": "Carlin", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_301", "nombre": "Gloria", "foto": "https://lh3.googleusercontent.com/d/1pgS7gj6ZKQFHVRP69a8ra-3OOgcBI_zL" },
+        { "id": "nom_302", "nombre": "Fernanda", "foto": "https://lh3.googleusercontent.com/d/1NKVqAyDaGD1xQTx1WFiSPZmF-ez8xN-0" },
+        { "id": "nom_303", "nombre": "Julian", "foto": "https://lh3.googleusercontent.com/d/1Lr34lYJH60Y_FBcRryIEncRL5SX_ihTE" },
+        { "id": "nom_304", "nombre": "Carlin", "foto": "https://lh3.googleusercontent.com/d/1EotYR1B36lQzGfkXiZSDl8pglcyozbqu" }
       ]
     },
     {
@@ -41,11 +41,11 @@
       "titulo": "🤣 El echa cuentos de Oro",
       "descripcion": "Para quien convierte cualquier reunión en una colección de cuentos, chistes y recuerdos.",
       "nominados": [
-        { "id": "nom_401", "nombre": "Tio Gustavo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_402", "nombre": "Cesar Ariza", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_403", "nombre": "Nelson", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_404", "nombre": "Julio Cesar", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" },
-         { "id": "nom_405", "nombre": "Tio Emiro", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_401", "nombre": "Tio Gustavo", "foto": "https://lh3.googleusercontent.com/d/1D8OZt_qlSg6bLIo-UnGDrPD6l-SNK8-d" },
+        { "id": "nom_402", "nombre": "Cesar Ariza", "foto": "https://lh3.googleusercontent.com/d/1eGzOvjqZ7GvCuC_nAJFQevE5Ta2kzAt8" },
+        { "id": "nom_403", "nombre": "Nelson", "foto": "" },
+        { "id": "nom_404", "nombre": "Julio Cesar", "foto": "https://lh3.googleusercontent.com/d/1fhO95HqDi85yNfg6b2b3faTMPK1XzAPG" },
+         { "id": "nom_405", "nombre": "Tio Emiro", "foto": "" }
       ]
     },
     {
@@ -56,7 +56,7 @@
         { "id": "nom_501", "nombre": "Briceida", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_502", "nombre": "Imirida", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
         { "id": "nom_503", "nombre": "Jazmin", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_504", "nombre": "Miryam", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_504", "nombre": "Miryam", "foto": "https://lh3.googleusercontent.com/d/1bG43CBDwipt-csOKiNfIpy1AJ0n1Rlzc" }
       ]
     },
     {
