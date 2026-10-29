@@ -18,11 +18,11 @@
       "titulo": "🥳 El ultimo en irse",
       "descripcion": "Para quien nunca está listo para terminar la fiesta.",
       "nominados": [
-        { "id": "nom_201", "nombre": "Jairo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_202", "nombre": "Marcela", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_203", "nombre": "Javier", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_204", "nombre": "Milena", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" },
-        { "id": "nom_205", "nombre": "Edgar", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_201", "nombre": "Jairo", "foto": "https://lh3.googleusercontent.com/d/14HluNZ-he0MtW6V8ARInEQshcqoTVUDk" },
+        { "id": "nom_202", "nombre": "Marcela", "foto": "https://lh3.googleusercontent.com/d/1wg1LE3CkecJHVA69IqrcNi_1yjS_KwGM" },
+        { "id": "nom_203", "nombre": "Javier", "foto": "https://lh3.googleusercontent.com/d/1-avQe3qzpf29o9FocXDef-bcb5WM8ub_" },
+        { "id": "nom_204", "nombre": "Milena", "foto": "https://lh3.googleusercontent.com/d/10qYxidycs4PSdzMmrGU3UInabYJa2K6W" },
+        { "id": "nom_205", "nombre": "Edgar", "foto": "" }
       ]
     },
     {
