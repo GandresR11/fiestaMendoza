@@ -6,10 +6,10 @@
        "titulo": "💃 Rey/Reina de la pista",
       "descripcion": "Baila más que una silla coja, se baila hasta los comerciales",
       "nominados": [
-        { "id": "nom_101", "nombre": "Mateo", "foto": "https://lh3.googleusercontent.com/d/1qmcNZP6tSw2nJpLRmFerosydvOko9LYs" },
-        { "id": "nom_102", "nombre": "Tio Miguel", "foto": "https://lh3.googleusercontent.com/d/1POoZKmOEYo4vjWtSoAqVIUswySB1hgDy" },
-        { "id": "nom_103", "nombre": "Fernanda", "foto": "https://lh3.googleusercontent.com/d/1F3PD2aHzVYAZPd8hMZqf_9BNW7VJhU_a" },
-        { "id": "nom_104", "nombre": "Luis Carlos", "foto": "https://lh3.googleusercontent.com/d/1CHNuHAigIRo9ejcbNMCSCgo4OmrouTM5" }
+        { "id": "nom_101", "nombre": "Consuelo", "foto": "https://lh3.googleusercontent.com/d/1CHNuHAigIRo9ejcbNMCSCgo4OmrouTM5"  },
+        { "id": "nom_102", "nombre": "Valentina Alba", "foto": "https://lh3.googleusercontent.com/d/1POoZKmOEYo4vjWtSoAqVIUswySB1hgDy" },
+        { "id": "nom_103", "nombre": "Valeria", "foto": "https://lh3.googleusercontent.com/d/1F3PD2aHzVYAZPd8hMZqf_9BNW7VJhU_a" },
+        { "id": "nom_104", "nombre": "Milena", "foto": "https://lh3.googleusercontent.com/d/1qmcNZP6tSw2nJpLRmFerosydvOko9LYs" }
       ]
     },
     {
