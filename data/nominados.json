@@ -3,19 +3,19 @@
   "categorias": [
     {
       "id": "cat_01",
-      "titulo": "😂 El Personaje del Año",
-      "descripcion": "Para quien siempre deja una anécdota, una ocurrencia o una historia memorable.",
+       "titulo": "💃 Rey/Reina de la pista",
+      "descripcion": "Baila más que una silla coja, se baila hasta los comerciales",
       "nominados": [
-        { "id": "nom_101", "nombre": "Mateo", "foto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&fit=crop" },
-        { "id": "nom_102", "nombre": "Tio Miguel", "foto": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&fit=crop" },
-        { "id": "nom_103", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&fit=crop" },
-        { "id": "nom_104", "nombre": "Luis Carlos", "foto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&fit=crop" }
+        { "id": "nom_101", "nombre": "Mateo", "foto": "https://lh3.googleusercontent.com/d/1qmcNZP6tSw2nJpLRmFerosydvOko9LYs" },
+        { "id": "nom_102", "nombre": "Tio Miguel", "foto": "https://lh3.googleusercontent.com/d/1POoZKmOEYo4vjWtSoAqVIUswySB1hgDy" },
+        { "id": "nom_103", "nombre": "Fernanda", "foto": "https://lh3.googleusercontent.com/d/1F3PD2aHzVYAZPd8hMZqf_9BNW7VJhU_a" },
+        { "id": "nom_104", "nombre": "Luis Carlos", "foto": "https://lh3.googleusercontent.com/d/1CHNuHAigIRo9ejcbNMCSCgo4OmrouTM5" }
       ]
     },
     {
       "id": "cat_02",
-      "titulo": "💃 El Alma de la Pista",
-      "descripcion": "Para quien apenas escucha música y desaparece de la silla.",
+      "titulo": "🥳 El ultimo en irse",
+      "descripcion": "Para quien nunca está listo para terminar la fiesta.",
       "nominados": [
         { "id": "nom_201", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_202", "nombre": "Mariangel", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -25,8 +25,8 @@
     },
     {
       "id": "cat_03",
-      "titulo": "🎤 La Voz de Oro",
-      "descripcion": "Para el cantante oficial —por talento o por insistencia— de la familia.",
+      "titulo": "🎤 El turpial/ruiseñor de la familia",
+      "descripcion": "Para el cantante oficial  de la familia.",
       "nominados": [
         { "id": "nom_301", "nombre": "Glorita", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_302", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -36,7 +36,7 @@
     },
     {
       "id": "cat_04",
-      "titulo": "🤣 El Cuenta-Historias de Oro",
+      "titulo": "🤣 El echa cuentos de Oro",
       "descripcion": "Para quien convierte cualquier reunión en una colección de cuentos, chistes y recuerdos.",
       "nominados": [
         { "id": "nom_401", "nombre": "Tio Gustavo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
@@ -48,8 +48,8 @@
     },
     {
       "id": "cat_05",
-      "titulo": "🥳 El Último en Irse",
-      "descripcion": "Para quien nunca está listo para terminar la fiesta.",
+      "titulo": "🍲 Mano bendita pa la cocina",
+      "descripcion": "Solo le faltan las estrellas michelin.",
       "nominados": [
         { "id": "nom_501", "nombre": "Javier", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_502", "nombre": "Nelson", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -59,7 +59,7 @@
     },
     {
       "id": "cat_06",
-      "titulo": "😤 Genio y Figura",
+      "titulo": "😤 Carepiedra - Genio y Figura",
       "descripcion": "Para ese carácter inolvidable de la familia: refunfuña, protesta, manda… pero así lo queremos.",
       "nominados": [
         { "id": "nom_601", "nombre": "Tia Miryam", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
@@ -70,7 +70,7 @@
     },
     {
       "id": "cat_07",
-      "titulo": "🍲 La Mano Bendita",
+      "titulo": "👑 Personaje del año",
       "descripcion": "Para quien tiene ese plato que la familia espera y recuerda.",
       "nominados": [
         { "id": "nom_701", "nombre": "Tia Miryan", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
@@ -81,7 +81,7 @@
     },
     {
       "id": "cat_08",
-      "titulo": "🚛🚜 El Todoterreno Familiar",
+      "titulo": "🚛🚜 El Camellador",
       "descripcion": "Para el trabajador incansable que se le mide a todo y siempre encuentra cómo resolver.",
       "nominados": [
         { "id": "nom_801", "nombre": "Julio Cesar", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
@@ -103,19 +103,17 @@
     },
     {
       "id": "cat_10",
-      "titulo": "🌟 Volver a Levantarse",
+      "titulo": "🌟 Los meros de la carretera",
       "descripcion": "Para quien ha pasado por una enfermedad, accidente, pérdida o situación difícil y ha demostrado una enorme capacidad de recuperación.",
       "nominados": [
-        { "id": "nom_1001", "nombre": "Tio Eduardo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1002", "nombre": "Tio Emiro", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1003", "nombre": "Cesar Ariza", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1004", "nombre": "Lili", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_1001", "nombre": "Todos nuestros maestros del volante y las carreteras", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+
       ]
     },
     {
       "id": "cat_11",
-      "titulo": "❤️ Inspiración de Vida",
-      "descripcion": "Para quien, incluso atravesando actualmente una situación complicada, contagia fortaleza, esperanza y ganas de seguir.",
+      "titulo": "❤️ Gente que le pone el alma",
+      "descripcion": "Para quien hace de todo por el que lo necesite y por mantener unida la familia.",
       "nominados": [
         { "id": "nom_1101", "nombre": "Gloria", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1102", "nombre": "Yolanda", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
@@ -125,58 +123,24 @@
     },
     {
       "id": "cat_12",
-      "titulo": "🌹 Huella Eterna — Categoría especial",
-      "descripcion": "Y el Premio Basilio Huella Eterna es para… Basilio, nuestra abuela, Benito y Julio",
+      "titulo": "🤠 El Mero Mendoza",
+      "descripcion": "No se raja, tiene palabra y sus valores representan la familia",
       "nominados": [
-        { "id": "nom_1201", "nombre": "Sabina", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1201", "nombre": "Basilio - Sabina - Benito - Julio", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_1202", "nombre": "Basilio", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
         { "id": "nom_1203", "nombre": "Benito", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
         { "id": "nom_1204", "nombre": "Julio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
-      "id": "cat_13",
-      "titulo": "🧭 El GPS de la Familia",
-      "descripcion": "Para quien sabe dónde vive todo el mundo, cómo llegar, quién es hijo de quién y cuál es “el camino más corto”.",
-      "nominados": [
-        { "id": "nom_1301", "nombre": "Tia Emirida", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1302", "nombre": "Tia Amparo", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1303", "nombre": "Tia Blanca", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1304", "nombre": "Tia Chabela", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
-      ]
-    },
-    {
-      "id": "cat_14",
-      "titulo": "📚 La Memoria Histórica",
-      "descripcion": "Para quien conserva historias, fechas, parentescos y recuerdos que mantienen viva la historia familiar.",
-      "nominados": [
-        { "id": "nom_1401", "nombre": "Tio Gustavo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1402", "nombre": "Tio Miguel", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1403", "nombre": "Luis Carlos", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1404", "nombre": "Sergio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
-      ]
-    },
-    {
-      "id": "cat_15",
-      "titulo": "❤️ El Corazón de la Familia",
-      "descripcion": "Para quien une, llama, visita, ayuda, acompaña y siempre está pendiente de los demás.",
-      "nominados": [
-        { "id": "nom_1501", "nombre": "Tia Amparo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1502", "nombre": "Milenita", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1503", "nombre": "Fernada", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1504", "nombre": "Glorita", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" },
-         { "id": "nom_1504", "nombre": "Yolanda", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
-      ]
-    },
-    {
       "id": "cat_16",
-      "titulo": "🌳 Premio Legado Basilio — EL GRAN PREMIO DE LA NOCHE",
-      "descripcion": "Quien representa especialmente los valores que quieren reconocer en el legado de Basilio: familia, trabajo, fortaleza, solidaridad, alegría y amor por los suyos.",
+      "titulo": "🌳 Nuestros Angeles en el cielo",
+      "descripcion": "Nos cuidan, guian y acompañan desde el cielo.",
       "nominados": [
-        { "id": "nom_1601", "nombre": "Tio Carlos", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1602", "nombre": "Tio Miguel", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1603", "nombre": "Julio Cesar", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1604", "nombre": "Tia Miryam", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_1601", "nombre": "Sabina", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1602", "nombre": "Basilio", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1603", "nombre": "Benito", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1604", "nombre": "Julio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     }
 
