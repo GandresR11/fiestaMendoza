@@ -9,7 +9,8 @@
         { "id": "nom_101", "nombre": "Consuelo", "foto": "https://lh3.googleusercontent.com/d/1mdJv_8ikWR1yA7fRoYcBtIuliI_VplbJ"  },
         { "id": "nom_102", "nombre": "Valentina Alba", "foto": "https://lh3.googleusercontent.com/d/1gNWjRnI5XJhh40ObWs4cwQoPJMPUrALu" },
         { "id": "nom_103", "nombre": "Valeria", "foto": "https://lh3.googleusercontent.com/d/1W3kEHCkwEvkmMc259fGblzLgXvM_6gck" },
-        { "id": "nom_104", "nombre": "Milena", "foto": "https://lh3.googleusercontent.com/d/10qYxidycs4PSdzMmrGU3UInabYJa2K6W" }
+        { "id": "nom_104", "nombre": "Milena", "foto": "https://lh3.googleusercontent.com/d/10qYxidycs4PSdzMmrGU3UInabYJa2K6W" },
+        { "id": "nom_105", "nombre": "Mariangel", "foto": "https://lh3.googleusercontent.com/d/1QW_WdbC0Icuh5yhHTkMbybLSyHEVvp32" }
       ]
     },
     {
@@ -17,10 +18,11 @@
       "titulo": "🥳 El ultimo en irse",
       "descripcion": "Para quien nunca está listo para terminar la fiesta.",
       "nominados": [
-        { "id": "nom_201", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_202", "nombre": "Mariangel", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_203", "nombre": "Jairo Celis", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_204", "nombre": "Milenita", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_201", "nombre": "Jairo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_202", "nombre": "Marcela", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_203", "nombre": "Javier", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_204", "nombre": "Milena", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" },
+        { "id": "nom_205", "nombre": "Edgar", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -28,10 +30,10 @@
       "titulo": "🎤 El turpial/ruiseñor de la familia",
       "descripcion": "Para el cantante oficial  de la familia.",
       "nominados": [
-        { "id": "nom_301", "nombre": "Glorita", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_301", "nombre": "Gloria", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_302", "nombre": "Fernanda", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_303", "nombre": "Carlos Mendoza Acevedo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_304", "nombre": "Tia Amparo", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_303", "nombre": "Julian", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_304", "nombre": "Carlin", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -40,7 +42,7 @@
       "descripcion": "Para quien convierte cualquier reunión en una colección de cuentos, chistes y recuerdos.",
       "nominados": [
         { "id": "nom_401", "nombre": "Tio Gustavo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_402", "nombre": "Cesar (Alba)", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_402", "nombre": "Cesar Ariza", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
         { "id": "nom_403", "nombre": "Nelson", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
         { "id": "nom_404", "nombre": "Julio Cesar", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" },
          { "id": "nom_405", "nombre": "Tio Emiro", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
@@ -51,10 +53,10 @@
       "titulo": "🍲 Mano bendita pa la cocina",
       "descripcion": "Solo le faltan las estrellas michelin.",
       "nominados": [
-        { "id": "nom_501", "nombre": "Javier", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_502", "nombre": "Nelson", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_503", "nombre": "Chepe", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_504", "nombre": "Mateo", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_501", "nombre": "Briceida", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_502", "nombre": "Imirida", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_503", "nombre": "Jazmin", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_504", "nombre": "Miryam", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -62,21 +64,21 @@
       "titulo": "😤 Carepiedra - Genio y Figura",
       "descripcion": "Para ese carácter inolvidable de la familia: refunfuña, protesta, manda… pero así lo queremos.",
       "nominados": [
-        { "id": "nom_601", "nombre": "Tia Miryam", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_602", "nombre": "Tio Carlos", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_603", "nombre": "Tia Miguel", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_604", "nombre": "Tia Chabela", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_601", "nombre": "Eduardo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_602", "nombre": "Chavela", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_603", "nombre": "Blanca", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_604", "nombre": "Carlos", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
       "id": "cat_07",
       "titulo": "👑 Personaje del año",
-      "descripcion": "Para quien tiene ese plato que la familia espera y recuerda.",
+      "descripcion": ".",
       "nominados": [
-        { "id": "nom_701", "nombre": "Tia Miryan", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_702", "nombre": "Tia Briceida", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_703", "nombre": "Tia Emirida", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_704", "nombre": "Sergio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_701", "nombre": "Miguel", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_702", "nombre": "Emiro", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_703", "nombre": "Amparo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_704", "nombre": "Luis Carlos", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -87,7 +89,7 @@
         { "id": "nom_801", "nombre": "Julio Cesar", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
         { "id": "nom_802", "nombre": "Luis carlos", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
         { "id": "nom_803", "nombre": "Nelson", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_804", "nombre": "Willy", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_804", "nombre": "Sergio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -95,10 +97,10 @@
       "titulo": "💪 Echao Pa’lante",
       "descripcion": "Para quien ha enfrentado dificultades y sigue construyendo, trabajando y avanzando.",
       "nominados": [
-        { "id": "nom_901", "nombre": "Oscar", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_902", "nombre": "Milena", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_903", "nombre": "Lito", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_904", "nombre": "Chepe", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_901", "nombre": "Paola", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_902", "nombre": "Daniela", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_903", "nombre": "Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_904", "nombre": "Triny", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -126,10 +128,11 @@
       "titulo": "🤠 El Mero Mendoza",
       "descripcion": "No se raja, tiene palabra y sus valores representan la familia",
       "nominados": [
-        { "id": "nom_1201", "nombre": "Basilio - Sabina - Benito - Julio", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1202", "nombre": "Basilio", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1203", "nombre": "Benito", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1204", "nombre": "Julio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_1201", "nombre": "Carlos Mendoza Acevedo", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
+        { "id": "nom_1202", "nombre": "Chepe", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_1203", "nombre": "Willy", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1203", "nombre": "Carlin", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_1204", "nombre": "Julio Cesar", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
       ]
     },
     {
@@ -141,6 +144,14 @@
         { "id": "nom_1302", "nombre": "Basilio", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
         { "id": "nom_1303", "nombre": "Benito", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
         { "id": "nom_1304", "nombre": "Julio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+      ]
+    },
+    {
+      "id": "cat_13",
+      "titulo": "🌳La siguiente generacón Mendoza",
+      "descripcion": "La alegria de ser niños.",
+      "nominados": [
+        { "id": "nom_1301", "nombre": "Los bisnietos y tataranietos...pequeños", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" }
       ]
     }
 
