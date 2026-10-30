@@ -45,7 +45,7 @@
         { "id": "nom_402", "nombre": "Cesar Ariza", "foto": "https://lh3.googleusercontent.com/d/1eGzOvjqZ7GvCuC_nAJFQevE5Ta2kzAt8" },
         { "id": "nom_403", "nombre": "Nelson", "foto": "https://lh3.googleusercontent.com/d/1RTnPpWxpsTPa20LRU3ECmAc4sLCPQnFI" },
         { "id": "nom_404", "nombre": "Julio Cesar", "foto": "https://lh3.googleusercontent.com/d/1fhO95HqDi85yNfg6b2b3faTMPK1XzAPG" },
-         { "id": "nom_405", "nombre": "Tio Emiro", "foto": "" }
+         { "id": "nom_405", "nombre": "Tio Emiro", "foto": "https://lh3.googleusercontent.com/d/1ujaFqQAiZuQN-q8GnoVRLQlbSoQ3OBzX" }
       ]
     },
     {
@@ -54,8 +54,8 @@
       "descripcion": "Solo le faltan las estrellas michelin.",
       "nominados": [
         { "id": "nom_501", "nombre": "Briceida", "foto": "https://lh3.googleusercontent.com/d/1OB0RrXSuYsdzv2fs3oe5k1cqbBZdKl-f" },
-        { "id": "nom_502", "nombre": "Imirida", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_503", "nombre": "Jazmin", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_502", "nombre": "Imirida", "foto": "https://lh3.googleusercontent.com/d/1K-iHdg68u-d2417I5m2HzK0kt9B8k185" },
+        { "id": "nom_503", "nombre": "Jazmin", "foto": "https://lh3.googleusercontent.com/d/1Kh_qTHEPXj7Mq_4R1KwxHbdRs-FJ001G" },
         { "id": "nom_504", "nombre": "Miryam", "foto": "https://lh3.googleusercontent.com/d/1bG43CBDwipt-csOKiNfIpy1AJ0n1Rlzc" }
       ]
     },
@@ -65,7 +65,7 @@
       "descripcion": "Para ese carácter inolvidable de la familia: refunfuña, protesta, manda… pero así lo queremos.",
       "nominados": [
         { "id": "nom_601", "nombre": "Eduardo", "foto": "https://lh3.googleusercontent.com/d/1TxN-c2gOUJC9GoYEbkHSzSv6sFlKXTRL" },
-        { "id": "nom_602", "nombre": "Chavela", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_602", "nombre": "Chavela", "foto": "https://lh3.googleusercontent.com/d/1mXBm3h3T5azrVFDTskHS8c_9qCnPWDPM" },
         { "id": "nom_603", "nombre": "Blanca", "foto": "https://lh3.googleusercontent.com/d/1q3I2qsr7LkbBumLrRYFyZaj69J9CQ33g" },
         { "id": "nom_604", "nombre": "Carlos", "foto": "https://lh3.googleusercontent.com/d/1U325ith9W76cjUqljZpxCh7NPVCXslOP" }
       ]
@@ -76,7 +76,7 @@
       "descripcion": ".",
       "nominados": [
         { "id": "nom_701", "nombre": "Miguel", "foto": "https://lh3.googleusercontent.com/d/1zsVE1jVfkvyjEMWW3kHhs8qhiJ4T3Taw" },
-        { "id": "nom_702", "nombre": "Emiro", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
+        { "id": "nom_702", "nombre": "Emiro", "foto": "https://lh3.googleusercontent.com/d/1ujaFqQAiZuQN-q8GnoVRLQlbSoQ3OBzX" },
         { "id": "nom_703", "nombre": "Amparo", "foto": "https://lh3.googleusercontent.com/d/1FAc-eENp2bDRe08zSKmQcXjQUBL1VA5J" },
         { "id": "nom_704", "nombre": "Luis Carlos", "foto": "https://lh3.googleusercontent.com/d/13QMiRcLBrf-cEk9vOOCAopbO0mlILJl_" }
       ]
@@ -99,7 +99,7 @@
       "nominados": [
         { "id": "nom_901", "nombre": "Paola", "foto": "https://lh3.googleusercontent.com/d/1ZjT8ixZSmnpxcZg86xJWRYLxkxOIT5Yv" },
         { "id": "nom_902", "nombre": "Daniela", "foto": "https://lh3.googleusercontent.com/d/1dzDeBtxxRGLiiHmed2ONzY0oYDNK6BPy" },
-        { "id": "nom_903", "nombre": "Mateo", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
+        { "id": "nom_903", "nombre": "Mateo", "foto": "https://lh3.googleusercontent.com/d/1UO6Mbg93KBX27lQxRf9Va7MlEh9Vu4lM" },
         { "id": "nom_904", "nombre": "Triny", "foto": "https://lh3.googleusercontent.com/d/1UJ2OmJotq7cYUQEsBYsr9OuvQ5uWxKjB" }
       ]
     },
@@ -129,11 +129,11 @@
       "descripcion": "No se raja, tiene palabra y sus valores representan la familia",
       "nominados": [
         { "id": "nom_1201", "nombre": "Carlos", "foto": "https://lh3.googleusercontent.com/d/1VJqH4ddaVjVPIuSPJkTsaBJDR_95aXT0" },
-        { "id": "nom_1202", "nombre": "Chepe", "foto": "" },
+        { "id": "nom_1202", "nombre": "Chepe", "foto": "https://lh3.googleusercontent.com/d/1c6uyC8tNRTDhxrMZzi0ZMj6b2Ja5m0Pc" },
         { "id": "nom_1203", "nombre": "Willy", "foto": "https://lh3.googleusercontent.com/d/1mvhOTzA3vo_oR_hhADNlu5gRswbm1IE5" },
         { "id": "nom_1203", "nombre": "Carlin", "foto": "https://lh3.googleusercontent.com/d/1EotYR1B36lQzGfkXiZSDl8pglcyozbqu" },
         { "id": "nom_1204", "nombre": "Julio Cesar", "foto": "https://lh3.googleusercontent.com/d/1fhO95HqDi85yNfg6b2b3faTMPK1XzAPG" },
-        { "id": "nom_1203", "nombre": "Oscar", "foto": "" }
+        { "id": "nom_1203", "nombre": "Oscar", "foto": "https://lh3.googleusercontent.com/d/1YIeQhCuIhoL5ruZVr4Sp0_21Sl1x4U8H" }
       ]
     },
     {
