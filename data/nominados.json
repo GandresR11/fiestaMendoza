@@ -141,10 +141,8 @@
       "titulo": "🌳 Nuestros Angeles en el cielo",
       "descripcion": "Nos cuidan, guian y acompañan desde el cielo.",
       "nominados": [
-        { "id": "nom_1301", "nombre": "Sabina", "foto": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&fit=crop" },
-        { "id": "nom_1302", "nombre": "Basilio", "foto": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&fit=crop" },
-        { "id": "nom_1303", "nombre": "Benito", "foto": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&fit=crop" },
-        { "id": "nom_1304", "nombre": "Julio", "foto": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&fit=crop" }
+        { "id": "nom_1301", "nombre": "Sabina - Basilio - Benito - Julio", "foto": "https://lh3.googleusercontent.com/d/12H7VdjqGlQKiZZ85P4sczSBubtQeuz4n" }
+       
       ]
     },
     {
